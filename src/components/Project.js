@@ -1,6 +1,21 @@
-const Project = () => {
+import { useState } from "react"
+
+
+const Project = ({urls, names, id, styles, handleClick}) => {
+
+    const [isHover, setIsHover] = useState(false)
+  
+    
+
+    const handleHover = () => {
+        setIsHover(prevValue => !prevValue)
+    }
+
     return (
-        <div>Project</div>
+        <div key={id} className={isHover ? "imageBox hovered" : "imageBox"} onMouseEnter={handleHover} onMouseLeave={handleHover} onClick={handleClick} style={styles}>
+            <img className={isHover? "project--image image--hovered" : "project--image"} src={urls} alt={names} />
+            {isHover && <div className="hoveredProject"> <span className="hoveredName">{names}</span></div>}
+        </div>
     )
 }
 

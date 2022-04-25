@@ -15,17 +15,18 @@ code {
 }
 
 .container {
-    text-align: center;
+    
     display: flex;
     flex-direction: column;
     height: 100vh;
+   
   
 }
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
+ 
 }
 
 nav {
@@ -38,7 +39,6 @@ nav {
 .main {
   flex-grow: 1;
   justify-content: center;
-  align-items: center;
   display: flex;
   width: 100%;
 }
@@ -66,15 +66,119 @@ nav {
   height: 100%;
 }
 
+.image--hovered {
+  opacity:0.4;
+ 
+}
+
 .imageBox {
 object-fit: fill;  
-filter: brightness(100%); 
 z-index: 1;
+}
 
+.imageBox.hovered {
+ 
+  position: relative;
+  background-color: black;
+  transition: all .6s ease-out;
 }
 
 .projects--container {
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 1;
+  /* ATTN CHANGE MARGIN TOP TO 0 AFTER HOVER ISSUE IS RESOLVED */
+  margin-top: 50px;
+
+}
+
+@media screen and (max-width: 650px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 25px;
+    gap: 15px;
+  }
+  .name {
+    margin: 0;
+    text-align: center;
+  }
+  nav {
+    margin-right: 0;
+  }
+}
+
+.hoveredProject {
+  z-index: 3;
+  width: 100%;
+  height: 100%;            
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-size: 2.4vw;
+  font-weight: 800;
+
  
 }
+
+.text-link { 
+  color: inherit;
+  text-decoration: inherit;
+  }
+  
+  li:hover { 
+  transform: scale(1.1); 
+  }
+
+  li {
+    transition: transform .2s; /* Animation */
+  }
+  
+ .projectPage {
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+   position: absolute;
+   right: 0;
+   top: 0;
+   z-index: 4;
+   background: white;
+   border: 2px solid black;
+   overflow: scroll;
+   height: 100vh;
+   
+ }
+
+ .sideBar--header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 20px;
+ }
+
+ .project--container {
+   margin-left: 50px;
+   margin-right: 50px;
+   height: 100vh;
+
+
+   
+ }
+
+ .sideImage {
+   width: 600px;
+ }
+
+ .closeSide {
+   font-size: 25px;
+   cursor: pointer;
+ }

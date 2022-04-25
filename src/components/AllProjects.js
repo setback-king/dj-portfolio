@@ -1,16 +1,45 @@
 import Projects from "../data/Projects.json"
+import {useState, useEffect} from "react"
+import Project from "./Project"
+import ProjectPage from "./ProjectPage"
 
 
 const AllProjects = () => {
 
+    const [isClicked, setIsClicked] = useState('')
+
+    const handleClicker = (id) => {
+        setIsClicked(true)
+        
+    }
+
+    const handleClose = () => {
+        setIsClicked(false)
+    }
+
+    useEffect(() => {
+        setIsClicked(false)
+    }, [])
+
+
     const projectElements = Projects.map(project => {
         return (
-            <div className="imageBox" style={{zIndex: project.zIndex || 1, width: project.width, marginTop: project.marginTop || 0, marginBottom: project.marginBottom || 0}}><img key={project.id} className="project--image" src={project.url} alt={project.name} /></div>
+            <Project 
+                key={project.id} 
+                urls={project.url} 
+                names={project.name} 
+                id={project.id}
+                styles= {{marginTop: project.marginTop, marginBottom: project.marginBottom, width: project.width, zIndex: project.zIndex}}
+                handleClick={() => handleClicker(project.id)}
+            />
         )
     })
 
     return (
-        <div className="projects--container">{projectElements}</div>
+        <div className="projects--container">
+            {projectElements}
+            {isClicked && <ProjectPage handleClose={handleClose} />}
+        </div>
     )
 }
 
