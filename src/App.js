@@ -13,11 +13,13 @@ function App() {
       
 
       <Header />
-      <Routes>
-          <Route path="/" element={<AllProjects/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/resume" element={<Resume/>}/>
-      </Routes>
+    
+        <Routes>
+            <Route path="/" element={<AllProjects/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/resume" element={<Resume/>}/>
+        </Routes>
+      
       <Footer />
 
      

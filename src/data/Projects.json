@@ -72,7 +72,8 @@
     "name": "TMNT",
     "url": "assets/12)TMNT_CoverPhoto.jpg",
     "id": 12,
-    "width": "33%"
+    "width": "33%",
+    "zIndex": "5"
 },
 {
     "name": "Road Rippers",
@@ -80,14 +81,15 @@
     "id": 13,
     "width": "100%",
     "marginTop": "-2.3%",
-    "zIndex": "2",
-    "marginBottom": "-2.2%"
+    "zIndex": "4",
+    "marginBottom": "-2.17%"
 },
 {
     "name": "Toy State",
     "url": "assets/14)ToyState_CoverPhoto.jpg",
     "id": 14,
-    "width": "33%"
+    "width": "33%",
+    "zIndex": "5"
 },
 {
     "name": "Dallas Toy Fair",
@@ -99,14 +101,15 @@
     "name": "Kreo",
     "url": "assets/16)Kreo_CoverPhoto.jpg",
     "id": 16,
-    "width": "33%"
+    "width": "33%",
+    "zIndex": "3"
 },
 {
     "name": "Wu Tang",
     "url": "assets/17)ThesisProject_CoverPhoto.png",
     "id": 17,
     "width": "100%",
-    "marginTop": "-2.3%",
+    "marginTop": "-2.245%",
     "marginBottom": "-2.6%",
     "zIndex": "2"
 },
@@ -120,12 +123,14 @@
     "name": "Carve",
     "url": "assets/19)Carve_CoverPhoto.jpg",
     "id": 19,
-    "width": "34%"
+    "width": "34%",
+    "zIndex": "3"
 },
 {
     "name": "Rivergreen Resort",
     "url": "assets/20)RivergreenResort_CoverPhoto.jpg",
     "id": 20,
-    "width": "33%"
+    "width": "33%",
+    "zIndex": "3"
 }
 ]
