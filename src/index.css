@@ -7,6 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -19,6 +20,7 @@ code {
     display: flex;
     flex-direction: column;
     height: 100vh;
+   
    
   
 }
@@ -74,6 +76,8 @@ nav {
 .imageBox {
 object-fit: fill;  
 z-index: 1;
+
+
 }
 
 .imageBox.hovered {
@@ -89,26 +93,8 @@ z-index: 1;
   flex-grow: 1;
   /* ATTN CHANGE MARGIN TOP TO 0 AFTER HOVER ISSUE IS RESOLVED */
   margin-top: 50px;
-
-}
-
-@media screen and (max-width: 650px) {
-  .header {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 25px;
-    gap: 15px;
-  }
-  .name {
-    margin: 0;
-    text-align: center;
-  }
-  nav {
-    margin-right: 0;
-  }
+ 
+  
 }
 
 .hoveredProject {
@@ -126,6 +112,7 @@ z-index: 1;
   color: white;
   font-size: 2.4vw;
   font-weight: 800;
+  
 
  
 }
@@ -146,15 +133,17 @@ z-index: 1;
  .projectPage {
    display: flex;
    flex-direction: column;
-   width: 60%;
-   position: absolute;
-   right: 0;
+   width: 65%;
+   position: fixed;
+   left: 0;
    top: 0;
    z-index: 4;
    background: white;
-   border: 2px solid black;
    overflow: scroll;
    height: 100vh;
+   box-shadow: 0 3px 8px rgb(0 0 0 / 0.2);
+   margin-bottom: 70px;
+   
    
  }
 
@@ -168,17 +157,43 @@ z-index: 1;
  .project--container {
    margin-left: 50px;
    margin-right: 50px;
-   height: 100vh;
-
-
+   margin-bottom: 50px;
+   
    
  }
 
  .sideImage {
-   width: 600px;
+   width: 70%
  }
 
  .closeSide {
    font-size: 25px;
    cursor: pointer;
  }
+
+
+
+
+@media screen and (max-width: 550px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 25px;
+    gap: 15px;
+  }
+  .name {
+    margin: 0;
+    text-align: center;
+  }
+  nav {
+    margin-right: 0;
+  }
+  .projectPage {
+   width: 100%
+  
+  }
+ 
+}
