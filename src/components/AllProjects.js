@@ -11,15 +11,15 @@ const AllProjects = () => {
     const [pageInfo, setPageInfo] = useState([])
 
     const handleClicker = (id) => {
-        setIsClicked(true)
+      setIsClicked(true)
       document.body.style.overflowY = "hidden"
       let projectContainer = document.querySelector('.projects--container--wrap')
       projectContainer.style.filter = 'brightness(60%)'
       projectContainer.style.pointerEvents = 'none'
-      Projects.map(project => {
+      Projects.forEach(project => {
         if(project.id === id) {
            setPageInfo([{name: project.name, url: project.url, p: project.p, id: project.id, url2: project.url2, url3: project.url3, url4: project.url4, 
-        url5: project.url5, url6: project.url6, url7: project.url7, url8: project.url8, url9: project.url9, url10: project.url10, url11: project.url11, url12: project.url12, url13: project.url13}])
+        url5: project.url5, url6: project.url6, url7: project.url7, url8: project.url8, url9: project.url9, url10: project.url10, url11: project.url11, url12: project.url12, url13: project.url13, url14: project.url14, url15: project.url15, p2: project.p2, p3: project.p3, p5: project.p5}])
         }
       })
      
