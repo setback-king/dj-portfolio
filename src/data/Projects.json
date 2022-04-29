@@ -1,8 +1,10 @@
 [ {
     "name": "ALLEN® 50TH ANNIVERSARY",
-    "url": "assets/1)Allen50_CoverPhoto.png",
+    "url": "assets/Transition_Photos/1.5)Allen50_Transition_CoverPhoto_Option2.png",
     "p": "The year 2020 marked 50 years of Allen® being in business. We wanted a special logo to promote on our website, apparel, ads, etc. Here you'll see the logo I designed, the product catalog I lead design on, and a few other applications where our team promoted the anniversary. It was promoted effectively at Shot Show, the nation's largest professional event for sport shooting, hunting, and the outdoor industry.",
     "id": 0,
+    "hovImg": "assets/1)Allen50_CoverPhoto.png",
+
     "url2": "assets/Images_Allen50/1)Logo_Allen50.jpg",
     "url3": "assets/Images_Allen50/2)CatalogCover_InEnvironment_Allen50.jpg",
     "url4": "assets/Images_Allen50/3)CatalogCover_Allen50.jpg",
@@ -22,9 +24,10 @@
     
 },
 {
-    "name": "Allen",
-    "url": "assets/2)Allen_CoverPhoto.jpg",
+    "name": "ALLEN®",
+    "url": "assets/Transition_Photos/2.5)Allen_Transition_CoverPhoto_Option2.jpg",
     "id": 1,
+    "hovImg": "assets/2)Allen_CoverPhoto.jpg",
     "width": "33%",
     "p": "",
     "url2": "",
@@ -43,9 +46,10 @@
     "url15": ""
 },
 {
-    "name": "Terrain",
-    "url": "assets/3)Terrain_CoverPhoto.jpg",
+    "name": "TERRAIN™",
+    "url": "assets/Transition_Photos/3.5)Terrain_Transition_CoverPhoto_Option2.jpg",
     "id": 2,
+    "hovImg": "assets/3)Terrain_CoverPhoto.jpg",
     "width": "34%",
     "p": "",
     "url2": "",
@@ -64,9 +68,10 @@
     "url15": ""
 },
 {   
-    "name": "EZ-AIM",
-    "url": "assets/4)EZAim_CoverPhoto.jpg",
+    "name": "EZ-AIM®",
+    "url": "assets/Transition_Photos/4.5)EZAim_Transition_CoverPhoto_Option2.jpg",
     "id": 3,
+    "hovImg": "assets/4)EZAim_CoverPhoto.jpg",
     "width": "33%",
     "p": "EZ-Aim is a brand carrying an extensive, diversified line of sport shooting products. The goal here was to create an aggressive, informative look for the brand so the user knows exactly what they’re looking for in stores and what they get when they shoot with EZ-Aim. Overtime, subsets of this brand were developed, targeting other demographics of shooters.",
     "url2": "assets/Images_EZAim/1)Logo_EZAim.jpg",
@@ -87,12 +92,13 @@
     "url15": "assets/Images_EZAim/14)GWGPackaging_InEnvironment2_EZAim.jpg"
 },
 {
-    "name": "Colorado Game Bags",
-    "url": "assets/Group 1.svg",
+    "name": "COLORADO GAME BAGS™",
+    "url": "assets/Transition_Photos/5.5)ColoradoGameBags_Transition_CoverPhoto_Option2.png",
     "id": 4,
+    "hovImg": "assets/5)ColoradoGameBags_CoverPhoto.png",
     "width": "100%",
     "marginTop": "-3.1%",
-    "zIndex": "2",
+    "zIndex": "3",
     "p": "",
     "url2": "",
     "url3": "",
@@ -110,9 +116,10 @@
     "url15": ""
 },
 {
-    "name": "Pulse",
-    "url": "assets/6)Pulse_CoverPhoto.jpg",
+    "name": "PULSE™",
+    "url": "assets/Transition_Photos/6.5)Pulse_Transition_CoverPhoto_Option2.jpg",
     "id": 5,
+    "hovImg": "assets/6)Pulse_CoverPhoto.jpg",
     "width": "33%",
     "p": "",
     "url2": "",
@@ -131,9 +138,10 @@
     "url15": ""
 },
 {
-    "name": "Cabelas",
-    "url": "assets/7)Cabelas_CoverPhoto.jpg",
+    "name": "CABELAS®",
+    "url": "assets/Transition_Photos/7.5)Cabelas_Transition_CoverPhoto_Option2.jpg",
     "id": 6,
+    "hovImg": "assets/7)Cabelas_CoverPhoto.jpg",
     "width": "34%",
     "p": "",
     "url2": "",
@@ -152,9 +160,10 @@
     "url15": ""
 },
 {
-    "name": "Love Laugh Craft",
-    "url": "assets/8)LoveLaughCraft_CoverPhoto.jpg",
+    "name": "LOVE LAUGH CRAFT™",
+    "url": "assets/Transition_Photos/8.5)LoveLaughCraft_Transition_CoverPhoto_Option2.jpg",
     "id": 7,
+    "hovImg": "assets/8)LoveLaughCraft_CoverPhoto.jpg",
     "width": "33%",
     "p": "",
     "url2": "",
@@ -173,9 +182,10 @@
     "url15": ""
 },
 {
-    "name": "Hot Wheels",
-    "url": "assets/9)HotWheels_CoverPhoto.jpg",
+    "name": "HOT WHEELS®",
+    "url": "assets/Transition_Photos/9.5)HotWheels_Transition_CoverPhoto_Option2.jpg",
     "id": 8,
+    "hovImg": "assets/9)HotWheels_CoverPhoto.jpg",
     "width": "100%",
     "p": "",
     "url2": "",
@@ -194,9 +204,10 @@
     "url15": ""
 },
 {
-    "name": "Nascar",
-    "url": "assets/10)Nascar_CoverPhoto.jpg",
+    "name": "NASCAR™",
+    "url": "assets/Transition_Photos/10.5)Nascar_Transition_CoverPhoto_Option2.jpg",
     "id": 9,
+    "hovImg": "assets/10)Nascar_CoverPhoto.jpg",
     "width": "33%",
     "p": "",
     "url2": "",
@@ -215,9 +226,10 @@
     "url15": ""
 },
 {
-    "name": "Free The Beast",
-    "url": "assets/11)FreeTheBeast_CoverPhoto.jpg",
+    "name": "FREE THE BEAST™",
+    "url": "assets/Transition_Photos/11.5)FreeTheBeast_Transition_CoverPhoto_Option2.jpg",
     "id": 10,
+    "hovImg": "assets/11)FreeTheBeast_CoverPhoto.jpg",
     "width": "34%",
     "p": "",
     "url2": "",
@@ -236,9 +248,10 @@
     "url15": ""
 },
 {
-    "name": "TMNT",
-    "url": "assets/12)TMNT_CoverPhoto.jpg",
+    "name": "TMNT™",
+    "url": "assets/Transition_Photos/12.5)TMNT_Transition_CoverPhoto_Option2.jpg",
     "id": 12,
+    "hovImg": "assets/12)TMNT_CoverPhoto.jpg",
     "width": "33%",
     "p": "",
     "url2": "",
@@ -257,9 +270,10 @@
     "url15": ""
 },
 {
-    "name": "Road Rippers",
-    "url": "assets/13)RoadRippers_CoverPhoto.png",
+    "name": "ROAD RIPPERS®",
+    "url": "assets/Transition_Photos/13.5)RoadRippers_Transition_CoverPhoto_Option2.png",
     "id": 13,
+    "hovImg": "assets/13)RoadRippers_CoverPhoto.png",
     "width": "100%",
     "marginTop": "-2.3%",
     "zIndex": "2",
@@ -281,9 +295,10 @@
     "url15": ""
 },
 {
-    "name": "Toy State",
-    "url": "assets/14)ToyState_CoverPhoto.jpg",
+    "name": "TOY STATE",
+    "url": "assets/Transition_Photos/14.5)ToyState_Transition_CoverPhoto_Option2.jpg",
     "id": 14,
+    "hovImg": "assets/14)ToyState_CoverPhoto.jpg",
     "width": "33%",
     "p": "",
     "url2": "",
@@ -302,9 +317,10 @@
     "url15": ""
 },
 {
-    "name": "Dallas Toy Fair",
-    "url": "assets/15)DallasToyFair_CoverPhoto.jpg",
+    "name": "DALLAS TOY FAIR®",
+    "url": "assets/Transition_Photos/15.5)DallasToyFair_Transition_CoverPhoto_Option2.jpg",
     "id": 15,
+    "hovImg": "assets/15)DallasToyFair_CoverPhoto.jpg",
     "width": "34%",
     "p": "",
     "url2": "",
@@ -323,9 +339,10 @@
     "url15": ""
 },
 {
-    "name": "Kreo",
-    "url": "assets/16)Kreo_CoverPhoto.jpg",
+    "name": "KRE-O®",
+    "url": "assets/Transition_Photos/16.5)Kreo_Transition_CoverPhoto_Option2.jpg",
     "id": 16,
+    "hovImg": "assets/16)Kreo_CoverPhoto.jpg",
     "width": "33%",
     "p": "",
     "url2": "",
@@ -344,9 +361,10 @@
     "url15": ""
 },
 {
-    "name": "Wu Tang",
-    "url": "assets/17)ThesisProject_CoverPhoto.png",
+    "name": "COLLEGE THESIS PROJECT",
+    "url": "assets/Transition_Photos/17.5)ThesisProject_Transition_CoverPhoto_Option2.png",
     "id": 17,
+    "hovImg": "assets/17)ThesisProject_CoverPhoto.png",
     "width": "100%",
     "marginTop": "-2.3%",
     "marginBottom": "-2.6%",
@@ -369,8 +387,9 @@
 },
 {
     "name": "PACE",
-    "url": "assets/18)PACE_CoverPhoto.jpg",
+    "url": "assets/Transition_Photos/18.5)PACE_Transition_CoverPhoto_Option2.jpg",
     "id": 18,
+    "hovImg": "assets/18)PACE_CoverPhoto.jpg",
     "width": "33%",
     "p": "",
     "url2": "",
@@ -389,9 +408,10 @@
     "url15": ""
 },
 {
-    "name": "Carve",
-    "url": "assets/19)Carve_CoverPhoto.jpg",
+    "name": "CARVE",
+    "url": "assets/Transition_Photos/19.5)Carve_Transition_CoverPhoto_Option2.jpg",
     "id": 19,
+    "hovImg": "assets/19)Carve_CoverPhoto.jpg",
     "width": "34%",
     "p": "",
     "url2": "",
@@ -410,9 +430,10 @@
     "url15": ""
 },
 {
-    "name": "Rivergreen Resort",
-    "url": "assets/20)RivergreenResort_CoverPhoto.jpg",
+    "name": "RIVERGREEN RESORT",
+    "url": "assets/Transition_Photos/20.5)RivergreenResort_Transition_CoverPhoto_Option2.jpg",
     "id": 20,
+    "hovImg": "assets/20)RivergreenResort_CoverPhoto.jpg",
     "width": "33%",
     "zIndex": "3",
     "p": "",
