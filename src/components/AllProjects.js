@@ -19,7 +19,7 @@ const AllProjects = () => {
       Projects.forEach(project => {
         if(project.id === id) {
            setPageInfo([{name: project.name, url: project.url, p: project.p, id: project.id, url2: project.url2, url3: project.url3, url4: project.url4, 
-        url5: project.url5, url6: project.url6, url7: project.url7, url8: project.url8, url9: project.url9, url10: project.url10, url11: project.url11, url12: project.url12, url13: project.url13, url14: project.url14, url15: project.url15, p2: project.p2, p3: project.p3, p5: project.p5, hovImg: project.hovImg}])
+        url5: project.url5, url6: project.url6, url7: project.url7, url8: project.url8, url9: project.url9, url10: project.url10, url11: project.url11, url12: project.url12, url13: project.url13, url14: project.url14, url15: project.url15, p2: project.p2, p3: project.p3, p5: project.p5, hovImg: project.hovImg, p7: project.p7, p11: project.p11, p9: project.p9, p12: project.p12}])
         }
       })
      
