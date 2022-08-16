@@ -186,7 +186,7 @@ position: relative;
     transition: transform .2s; /* Animation */
   }
   
-  /* change width back to 50% and left to -100% */
+  
  .projectPage {
    display: flex;
    flex-direction: column;
