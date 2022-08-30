@@ -25,7 +25,7 @@
   }
   to {
     opacity: 1;
-    transform: rotateX(0)
+    transform: rotateX(0);
   }
 }
 
@@ -36,39 +36,35 @@
   }
   to {
     opacity: 0;
-    transform: rotateX(0)
+    transform: rotateX(0);
   }
 }
 
-body, html {
+body,
+html {
   margin: 0;
   height: 100vh;
   width: 100vw;
-  font-family: 'GothamBook';
+  font-family: "GothamBook";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .container {
-    
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-  
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
- 
 }
 
 nav {
@@ -78,7 +74,6 @@ nav {
   margin-right: 50px;
   z-index: 3;
   font-size: 18px;
-
 }
 
 .main {
@@ -86,7 +81,7 @@ nav {
   justify-content: center;
   display: flex;
   width: 100%;
-  animation: transitionIn 0.75s
+  animation: transitionIn 0.75s;
 }
 
 .footer {
@@ -97,9 +92,7 @@ nav {
   display: flex;
 }
 
-
 .line {
-  
   border-left: 1px solid black;
 }
 
@@ -111,7 +104,7 @@ nav {
   width: 100%;
   height: 100%;
   z-index: 2;
-  transition: all .6s ease-out;
+  transition: all 0.6s ease-out;
   animation: transitionIn 1.5s;
 }
 
@@ -119,34 +112,29 @@ nav {
   width: 100%;
   height: 100%;
   z-index: 3;
-  transition: all .6s ease-out;
+  transition: all 0.6s ease-out;
   animation: transitionIn 0.75s;
 }
 
 .imageBox {
-object-fit: fill;  
-cursor: pointer;
-animation: transitionIn 1s;
-position: relative;
-
-
+  object-fit: fill;
+  cursor: pointer;
+  animation: transitionIn 1s;
+  position: relative;
 }
 
 .projects--container {
-
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
   margin-top: 35px;
   animation: transitionIn 0.75s;
-  
 }
 
 .projects--container--wrap {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
-  
 }
 
 .bottom {
@@ -161,52 +149,49 @@ position: relative;
   -ms-transition: opacity 0.7s;
   -o-transition: opacity 0.7s;
   transition: opacity 0.7s;
-
 }
 
 .top {
   width: 100%;
-  height: 100%
+  height: 100%;
 }
 
-.imageBox:hover .bottom{
+.imageBox:hover .bottom {
   opacity: 0;
 }
 
-.text-link { 
+.text-link {
   color: inherit;
   text-decoration: inherit;
-  }
-  
-  li:hover { 
-  transform: scale(1.1); 
-  }
+}
 
-  li {
-    transition: transform .2s; /* Animation */
-  }
-  
-  
- .projectPage {
-   display: flex;
-   flex-direction: column;
-   position: fixed;
-   left: 0;
-   top: 0;
-   z-index: 4;
-   background: white;
-   overflow: scroll;
-   height: 100vh;
-   box-shadow: 0 3px 8px rgb(0 0 0 / 0.2);
-   margin-bottom: 70px;
-   animation: transitionIn .65s;
-   min-width: 400px;
-   max-width: 850px;
-   align-items: center;
-   
- }
+li:hover {
+  transform: scale(1.1);
+}
 
- .projectPage::-webkit-scrollbar {
+li {
+  transition: transform 0.2s; /* Animation */
+}
+
+.projectPage {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 4;
+  background: white;
+  overflow: scroll;
+  height: 100vh;
+  box-shadow: 0 3px 8px rgb(0 0 0 / 0.2);
+  margin-bottom: 70px;
+  animation: transitionIn 0.65s;
+  min-width: 400px;
+  max-width: 850px;
+  align-items: center;
+}
+
+.projectPage::-webkit-scrollbar {
   display: none;
 }
 
@@ -214,52 +199,45 @@ body::-webkit-scrollbar {
   display: none;
 }
 
- .sideBar--header {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   margin-top: 20px;
-   margin-bottom: 4%;
- }
+.sideBar--header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 4%;
+}
 
- .project--container {
-   margin-left: 7%;
-   margin-right: 7%;
-   display: flex;
-   flex-direction: column;
- }
+.project--container {
+  margin-left: 7%;
+  margin-right: 7%;
+  display: flex;
+  flex-direction: column;
+}
 
- .project--header {
-   font-family: 'GothamBold';
-   text-align: left;
-   margin-right: 30px;
+.project--header {
+  font-family: "GothamBold";
+  text-align: left;
+  margin-right: 30px;
+}
 
- }
+p {
+  margin-bottom: 7%;
+  text-align: justify;
+  margin-top: 0;
+}
+.sideImage {
+  width: 100%;
+  margin-bottom: 7%;
+}
 
- p {
-   margin-bottom: 7%;
-   text-align: justify;
-   margin-top: 0;
- }
- .sideImage {
-   width: 100%;
-   box-shadow: 0 3px 8px rgb(0 0 0 / 0.2);
-   margin-bottom: 7%;
-   
- }
+.closeSide {
+  font-size: 25px;
+  cursor: pointer;
+}
 
- .closeSide {
-   font-size: 25px;
-   cursor: pointer;
- }
-
- .closeSide:hover {
-   transform: scale(1.1);
- }
-
-
-
-
+.closeSide:hover {
+  transform: scale(1.1);
+}
 
 @media screen and (max-width: 550px) {
   .header {
@@ -279,8 +257,6 @@ body::-webkit-scrollbar {
     margin-right: 0;
   }
   .projects--container {
-    margin-top: 15px
+    margin-top: 15px;
   }
-
- 
 }
