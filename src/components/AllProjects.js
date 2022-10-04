@@ -21,6 +21,7 @@ const AllProjects = () => {
             url: project.url,
             p: project.p,
             pp2: project.pp2,
+            link1: project.link1,
             pc: project.pc,
             id: project.id,
             url2: project.url2,

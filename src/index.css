@@ -220,7 +220,8 @@ body::-webkit-scrollbar {
   margin-right: 30px;
 }
 
-p {
+p,
+a {
   margin-bottom: 7%;
   text-align: justify;
   margin-top: 0;
