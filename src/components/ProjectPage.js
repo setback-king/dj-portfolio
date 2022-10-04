@@ -55,7 +55,11 @@ const ProjectPage = ({ handleClose, info }) => {
         </div>
         <p>{p}</p>
         {pp2 && <p>{pp2}</p>}
-        {link1 && <a href={link1}>https://rivergreenresort.com</a>}
+        {link1 && (
+          <a href={link1} target="_blank" rel="noreferrer">
+            https://rivergreenresort.com
+          </a>
+        )}
         {pc && <p>{pc}</p>}
         <img className="sideImage" src={url2} alt="" />
         {p2 && <p>{p2}</p>}
