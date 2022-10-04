@@ -65,19 +65,19 @@ const ProjectPage = ({ handleClose, info }) => {
         {p2 && <p>{p2}</p>}
         <img className="sideImage" src={url3} alt="" />
         {p3 && <p>{p3}</p>}
-        <img className="sideImage" src={url4} alt="" />
+        {url4 && <img className="sideImage" src={url4} alt="" />}
         {p4 && <p>{p4}</p>}
-        <img className="sideImage" src={url5} alt="" />
+        {url5 && <img className="sideImage" src={url5} alt="" />}
         {p5 && <p>{p5}</p>}
-        <img className="sideImage" src={url6} alt="" />
+        {url6 && <img className="sideImage" src={url6} alt="" />}
         {p6 && <p>{p6}</p>}
-        <img className="sideImage" src={url7} alt="" />
+        {url7 && <img className="sideImage" src={url7} alt="" />}
         {p7 && <p>{p7}</p>}
-        <img className="sideImage" src={url8} alt="" />
+        {url8 && <img className="sideImage" src={url8} alt="" />}
         {p8 && <p>{p8}</p>}
-        <img className="sideImage" src={url9} alt="" />
+        {url9 && <img className="sideImage" src={url9} alt="" />}
         {p9 && <p>{p9}</p>}
-        <img className="sideImage" src={url10} alt="" />
+        {url10 && <img className="sideImage" src={url10} alt="" />}
         {p10 && <p>{p10}</p>}
         {url11 && <img className="sideImage" src={url11} alt="" />}
         {p11 && <p>{p11}</p>}
