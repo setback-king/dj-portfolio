@@ -4,6 +4,7 @@ const ProjectPage = ({ handleClose, info }) => {
   const {
     name,
     p,
+    pp2,
     pc,
     url2,
     url3,
@@ -52,6 +53,7 @@ const ProjectPage = ({ handleClose, info }) => {
           </span>
         </div>
         <p>{p}</p>
+        {pp2 && <p>{pp2}</p>}
         {pc && <p>{pc}</p>}
         <img className="sideImage" src={url2} alt="" />
         {p2 && <p>{p2}</p>}
