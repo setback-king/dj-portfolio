@@ -1,3 +1,22 @@
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+  font-style: italic;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black;
+  font-style: italic;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: black;
+  font-style: italic;
+}
+
 @font-face {
   font-family: GothamBold;
   src: url("./Fonts/Gotham-Bold.otf") format("opentype");
@@ -80,7 +99,6 @@ nav {
   flex-grow: 1;
   justify-content: center;
   display: flex;
-  width: 100%;
   animation: transitionIn 0.75s;
 }
 
@@ -247,10 +265,11 @@ a {
   padding: 10px 60px;
   width: 100%;
   flex-wrap: wrap-reverse;
+  animation: transitionIn 0.75s;
 }
 
 .profilePic {
-  width: 400px;
+  width: 450px;
 }
 
 .aboutRight {
@@ -263,6 +282,34 @@ a {
 .aboutBody {
   line-height: 1.6;
   text-align: left;
+  margin-bottom: 20px;
+}
+
+.aboutLogo {
+  height: 45px;
+}
+
+.aboutLogo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.contactInfo {
+  flex-wrap: wrap;
+}
+
+.submitBtn {
+  width: 75px;
+  background-color: black;
+  color: white;
+  font-style: italic;
+}
+
+input,
+textarea {
+  padding: 10px;
+  background-color: #d3d5d6;
+  border: none;
 }
 
 @media screen and (max-width: 550px) {
@@ -284,5 +331,8 @@ a {
   }
   .projects--container {
     margin-top: 15px;
+  }
+  .contactInfo {
+    flex-direction: column;
   }
 }
