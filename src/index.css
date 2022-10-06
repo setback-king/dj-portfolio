@@ -98,6 +98,7 @@ nav {
 
 .name {
   margin-left: 50px;
+  font-weight: bold;
 }
 
 .project--image {
@@ -238,6 +239,30 @@ a {
 
 .closeSide:hover {
   transform: scale(1.1);
+}
+
+.about {
+  display: flex;
+  gap: 60px;
+  padding: 10px 60px;
+  width: 100%;
+  flex-wrap: wrap-reverse;
+}
+
+.profilePic {
+  width: 400px;
+}
+
+.aboutRight {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.aboutBody {
+  line-height: 1.6;
+  text-align: left;
 }
 
 @media screen and (max-width: 550px) {
