@@ -305,6 +305,10 @@ a {
   font-style: italic;
 }
 
+.submitBtn:hover {
+  cursor: pointer;
+}
+
 input,
 textarea {
   padding: 10px;
