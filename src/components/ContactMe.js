@@ -17,7 +17,8 @@ const ContactMe = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          e.target.reset();
+          setIsSent(true);
         },
         (error) => {
           console.log(error.text);
