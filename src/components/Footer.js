@@ -1,9 +1,5 @@
 const Footer = () => {
-    return (
-        <div className="footer">
-            Created by SetbackKing 2022
-        </div>
-    )
-}
+  return <div className="footer">© 2022 Daniel Barez</div>;
+};
 
-export default Footer
+export default Footer;

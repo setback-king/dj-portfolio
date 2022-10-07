@@ -84,6 +84,8 @@ code {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  font-family: "GothamBold";
+  margin-top: 30px;
 }
 
 nav {
@@ -93,6 +95,7 @@ nav {
   margin-right: 50px;
   z-index: 3;
   font-size: 18px;
+  font-family: "Gotham";
 }
 
 .main {
@@ -103,8 +106,7 @@ nav {
 }
 
 .footer {
-  border: 1px solid black;
-  padding: 20px;
+  padding: 30px;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -148,6 +150,7 @@ nav {
   flex-grow: 1;
   margin-top: 35px;
   animation: transitionIn 0.75s;
+  line-height: 1.6;
 }
 
 .projects--container--wrap {
@@ -242,7 +245,7 @@ body::-webkit-scrollbar {
 p,
 a {
   margin-bottom: 7%;
-  text-align: justify;
+  text-align: left;
   margin-top: 0;
 }
 .sideImage {

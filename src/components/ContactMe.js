@@ -27,8 +27,8 @@ const ContactMe = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      {!isSent ? (
+    <div>
+      <form ref={form} onSubmit={sendEmail}>
         <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
           <input type="text" name="user_name" placeholder="Name *" required />
           <input
@@ -37,19 +37,23 @@ const ContactMe = () => {
             placeholder="Email *"
             required
           />
-          <input
-            type="text"
-            name="user_subject"
-            placeholder="Subject *"
-            required
-          />
+          <input type="text" name="user_subject" placeholder="Subject" />
           <textarea name="message" placeholder="Message *" rows="8" required />
           <input type="submit" value="Send" className="submitBtn" />
         </div>
-      ) : (
-        <h2>Thank you for submitting a message.</h2>
+      </form>
+      {isSent && (
+        <p
+          style={{
+            fontStyle: "italic",
+            marginTop: "30px",
+            marginBottom: "-20px",
+          }}
+        >
+          Thank you! Your message has been sent.
+        </p>
       )}
-    </form>
+    </div>
   );
 };
 

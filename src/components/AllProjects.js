@@ -7,6 +7,10 @@ const AllProjects = () => {
   const [isClicked, setIsClicked] = useState("");
   const [pageInfo, setPageInfo] = useState([]);
 
+  // window.addEventListener("click", (e) => {
+  //   console.log(e.target.className);
+  // });
+
   const handleClicker = (id) => {
     setIsClicked(true);
     document.body.style.overflowY = "hidden";

@@ -54,9 +54,14 @@ const ProjectPage = ({ handleClose, info }) => {
           </span>
         </div>
         <p>{p}</p>
-        {pp2 && <p>{pp2}</p>}
+        {pp2 && <p style={{ marginTop: "-30px" }}>{pp2}</p>}
         {link1 && (
-          <a href={link1} target="_blank" rel="noreferrer">
+          <a
+            href={link1}
+            target="_blank"
+            rel="noreferrer"
+            style={{ marginTop: "-30px" }}
+          >
             https://rivergreenresort.com
           </a>
         )}
