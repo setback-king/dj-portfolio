@@ -13,6 +13,7 @@ export default function About() {
         </div>
         <div className="aboutRight">
           <h3
+            className="aboutHeader"
             style={{
               marginTop: "0px",
               textShadow: "0px 1px, 1px 0px, 1px 1px",

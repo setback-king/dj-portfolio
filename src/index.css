@@ -336,10 +336,32 @@ textarea {
   nav {
     margin-right: 0;
   }
-  .projects--container {
+  .project--container {
     margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 8%;
+    margin-left: 8%;
   }
   .contactInfo {
     flex-direction: column;
+  }
+
+  .about {
+    overflow-x: hidden;
+    padding: 25px;
+    justify-content: center;
+  }
+
+  .profilePic {
+    width: 330px;
+  }
+  .closeSide {
+    margin-right: 30px;
+    position: fixed;
+    margin-left: 85%;
+  }
+  .projectPage {
+    min-width: 350px;
   }
 }
