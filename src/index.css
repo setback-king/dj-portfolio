@@ -240,6 +240,7 @@ body::-webkit-scrollbar {
   font-family: "GothamBold";
   text-align: left;
   margin-right: 30px;
+  line-height: 1.2;
 }
 
 p,
