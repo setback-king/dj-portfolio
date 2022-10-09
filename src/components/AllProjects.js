@@ -7,9 +7,16 @@ const AllProjects = () => {
   const [isClicked, setIsClicked] = useState("");
   const [pageInfo, setPageInfo] = useState([]);
 
-  // window.addEventListener("click", (e) => {
-  //   console.log(e.target.className);
-  // });
+  window.addEventListener("click", (e) => {
+    console.log(e.target.className);
+    if (
+      (e.target.className === "projects--container" ||
+        e.target.className === "header") &&
+      isClicked
+    ) {
+      handleClose();
+    }
+  });
 
   const handleClicker = (id) => {
     setIsClicked(true);
@@ -17,6 +24,7 @@ const AllProjects = () => {
     let projectContainer = document.querySelector(".projects--container--wrap");
     projectContainer.style.filter = "brightness(60%)";
     projectContainer.style.pointerEvents = "none";
+
     Projects.forEach((project) => {
       if (project.id === id) {
         setPageInfo([
@@ -72,17 +80,15 @@ const AllProjects = () => {
 
   const handleClose = () => {
     setIsClicked(false);
-    handleCloseChange();
-  };
-
-  function handleCloseChange() {
     let sideBar = document.querySelector(".projectPage");
-    sideBar.style.left = "-100%";
     let projectContainer = document.querySelector(".projects--container--wrap");
-    projectContainer.style.filter = "brightness(100%)";
-    document.body.style.overflowY = "visible";
-    projectContainer.style.pointerEvents = "";
-  }
+    if (projectContainer && sideBar) {
+      sideBar.style.left = "-100%";
+      projectContainer.style.filter = "brightness(100%)";
+      document.body.style.overflowY = "visible";
+      projectContainer.style.pointerEvents = "";
+    }
+  };
 
   useEffect(() => {
     setIsClicked(false);
