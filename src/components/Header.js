@@ -6,7 +6,7 @@ const Header = () => {
       <h1 className="name">DANIEL BAREZ</h1>
       <nav>
         <li>
-          <Link className="text-link" to="/">
+          <Link className="text-link" to="/dj-portfolio">
             Home
           </Link>
         </li>
