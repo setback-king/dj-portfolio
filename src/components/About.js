@@ -6,7 +6,7 @@ export default function About() {
       <div className="about">
         <div className="pic">
           <img
-            src="assets/About/About Photo_New.jpg"
+            src="/assets/About/About Photo_New.jpg"
             alt=""
             className="profilePic"
           />
