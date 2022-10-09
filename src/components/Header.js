@@ -7,7 +7,7 @@ const Header = () => {
       <nav>
         <li>
           <Link className="text-link" to="/dj-portfolio/">
-            Home
+            Work
           </Link>
         </li>
         <div className="line"></div>
