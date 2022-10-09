@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dj-portfolio/static/css/main.4b67955b.css",
+    "main.css": "/dj-portfolio/static/css/main.edf6c5f5.css",
     "main.js": "/dj-portfolio/static/js/main.84fc7059.js",
     "static/js/787.81aefb36.chunk.js": "/dj-portfolio/static/js/787.81aefb36.chunk.js",
     "static/media/Gotham-BookIta.otf": "/dj-portfolio/static/media/Gotham-BookIta.760c1cfbdf1b64001d13.otf",
@@ -8,12 +8,12 @@
     "static/media/Gotham-Book.otf": "/dj-portfolio/static/media/Gotham-Book.e37cf59954e32a3f5401.otf",
     "static/media/Gotham-Bold.otf": "/dj-portfolio/static/media/Gotham-Bold.19cbd08d9da163ba87d6.otf",
     "index.html": "/dj-portfolio/index.html",
-    "main.4b67955b.css.map": "/dj-portfolio/static/css/main.4b67955b.css.map",
+    "main.edf6c5f5.css.map": "/dj-portfolio/static/css/main.edf6c5f5.css.map",
     "main.84fc7059.js.map": "/dj-portfolio/static/js/main.84fc7059.js.map",
     "787.81aefb36.chunk.js.map": "/dj-portfolio/static/js/787.81aefb36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b67955b.css",
+    "static/css/main.edf6c5f5.css",
     "static/js/main.84fc7059.js"
   ]
 }
