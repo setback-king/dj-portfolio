@@ -3,7 +3,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import AllProjects from "./components/AllProjects";
 import About from "./components/About";
-import Resume from "./components/Resume";
 
 function App() {
   return (
