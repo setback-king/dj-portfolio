@@ -9,6 +9,7 @@ export default function About() {
             src="assets/About/About Photo_New.jpg"
             alt=""
             className="profilePic"
+            loading="lazy"
           />
         </div>
         <div className="aboutRight">
