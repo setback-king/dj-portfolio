@@ -151,6 +151,7 @@ nav {
   margin-top: 35px;
   animation: transitionIn 0.75s;
   line-height: 1.6;
+  letter-spacing: 0.2px;
 }
 
 .projects--container--wrap {
