@@ -11,7 +11,7 @@ function App() {
         <Header />
 
         <Routes>
-          <Route path="/dj-portfolio" element={<AllProjects />} />
+          <Route path="/dj-portfolio/" element={<AllProjects />} />
           <Route path="/dj-portfolio/about" element={<About />} />
         </Routes>
 
