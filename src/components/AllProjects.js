@@ -9,11 +9,7 @@ const AllProjects = () => {
 
   window.addEventListener("click", (e) => {
     console.log(e.target.className);
-    if (
-      (e.target.className === "projects--container" ||
-        e.target.className === "header") &&
-      isClicked
-    ) {
+    if (e.target.className === "projectPage" && isClicked) {
       handleClose();
     }
   });
