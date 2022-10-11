@@ -44,7 +44,12 @@ export default function About() {
             }}
           >
             <div
-              style={{ display: "flex", flexDirection: "column", gap: "10px" }}
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "10px",
+                marginBottom: "2%",
+              }}
             >
               <span>
                 <strong>Phone: </strong>203-848-8488

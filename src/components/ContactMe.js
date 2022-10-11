@@ -38,7 +38,7 @@ const ContactMe = () => {
             required
           />
           <input type="text" name="user_subject" placeholder="Subject" />
-          <textarea name="message" placeholder="Message *" rows="8" required />
+          <textarea name="message" placeholder="Message *" rows="10" required />
           <input type="submit" value="Send" className="submitBtn" />
         </div>
       </form>

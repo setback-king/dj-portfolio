@@ -53,7 +53,7 @@ const ProjectPage = ({ handleClose, info }) => {
             X
           </span>
         </div>
-        <p>{p}</p>
+        <p style={{ marginTop: "-2%" }}>{p}</p>
         {pp2 && <p style={{ marginTop: "0%" }}>{pp2}</p>}
         {link1 && (
           <a href={link1} target="_blank" rel="noreferrer">
