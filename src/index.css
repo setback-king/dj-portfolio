@@ -246,7 +246,21 @@ body::-webkit-scrollbar {
 
 .sideImage {
   width: 100%;
-  margin-bottom: 8%;
+}
+
+a {
+  margin: 0;
+}
+
+.sidebarA {
+  margin-top: 5%;
+  margin-bottom: 7%;
+  display: "inline-block";
+}
+
+.sidebarB {
+  display: "inline-block";
+  margin-bottom: 7%;
 }
 
 .sideP {

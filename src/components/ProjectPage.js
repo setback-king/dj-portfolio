@@ -62,78 +62,122 @@ const ProjectPage = ({ handleClose, info }) => {
         )}
         {pc && <p>{pc}</p>}
 
-        <a
-          href={url2}
-          style={{
-            marginBottom: "0%",
-            marginTop: "5%",
-            display: "inline-block",
-          }}
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href={url2} className="sidebarA" target="_blank" rel="noreferrer">
           <img className="sideImage" src={url2} alt="" />
         </a>
 
         {p2 && <p className="sideP">{p2}</p>}
-        <img className="sideImage" src={url3} alt="" />
+        <a href={url3} className="sidebarB" target="_blank" rel="noreferrer">
+          <img className="sideImage" src={url3} alt="" />
+        </a>
         {p3 && <p className="sideP">{p3}</p>}
-        {url4 && <img className="sideImage" src={url4} alt="" />}
+        {url4 && (
+          <a href={url4} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url4} alt="" />
+          </a>
+        )}
         {p4 && <p className="sideP">{p4}</p>}
-        {url5 && <img className="sideImage" src={url5} alt="" />}
+        {url5 && (
+          <a href={url5} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url5} alt="" />
+          </a>
+        )}
         {p5 && <p className="sideP">{p5}</p>}
-        {url6 && <img className="sideImage" src={url6} alt="" loading="lazy" />}
+        {url6 && (
+          <a href={url6} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url6} alt="" loading="lazy" />
+          </a>
+        )}
         {p6 && <p className="sideP">{p6}</p>}
-        {url7 && <img className="sideImage" src={url7} alt="" loading="lazy" />}
+        {url7 && (
+          <a href={url7} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url7} alt="" loading="lazy" />
+          </a>
+        )}
         {p7 && <p className="sideP">{p7}</p>}
-        {url8 && <img className="sideImage" src={url8} alt="" loading="lazy" />}
+        {url8 && (
+          <a href={url8} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url8} alt="" loading="lazy" />
+          </a>
+        )}
         {p8 && <p className="sideP">{p8}</p>}
-        {url9 && <img className="sideImage" src={url9} alt="" loading="lazy" />}
+        {url9 && (
+          <a href={url9} className="sidebarB" target="_blank" rel="noreferrer">
+            {" "}
+            <img className="sideImage" src={url9} alt="" loading="lazy" />
+          </a>
+        )}
         {p9 && <p className="sideP">{p9}</p>}
         {url10 && (
-          <img className="sideImage" src={url10} alt="" loading="lazy" />
+          <a href={url10} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url10} alt="" loading="lazy" />
+          </a>
         )}
         {p10 && <p className="sideP">{p10}</p>}
         {url11 && (
-          <img className="sideImage" src={url11} alt="" loading="lazy" />
+          <a href={url11} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url11} alt="" loading="lazy" />
+          </a>
         )}
         {p11 && <p className="sideP">{p11}</p>}
         {url12 && (
-          <img className="sideImage" src={url12} alt="" loading="lazy" />
+          <a href={url12} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url12} alt="" loading="lazy" />
+          </a>
         )}
         {p12 && <p className="sideP">{p12}</p>}
         {url13 && (
-          <img className="sideImage" src={url13} alt="" loading="lazy" />
+          <a href={url13} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url13} alt="" loading="lazy" />
+          </a>
         )}
         {p13 && <p className="sideP">{p13}</p>}
         {url14 && (
-          <img className="sideImage" src={url14} alt="" loading="lazy" />
+          <a href={url14} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url14} alt="" loading="lazy" />
+          </a>
         )}
         {p14 && <p className="sideP">{p14}</p>}
         {url15 && (
-          <img className="sideImage" src={url15} alt="" loading="lazy" />
+          <a href={url15} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url15} alt="" loading="lazy" />
+          </a>
         )}
         {p15 && <p className="sideP">{p15}</p>}
         {url16 && (
-          <img className="sideImage" src={url16} alt="" loading="lazy" />
+          <a href={url16} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url16} alt="" loading="lazy" />
+          </a>
         )}
         {url17 && (
-          <img className="sideImage" src={url17} alt="" loading="lazy" />
+          <a href={url17} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url17} alt="" loading="lazy" />
+          </a>
         )}
         {url18 && (
-          <img className="sideImage" src={url18} alt="" loading="lazy" />
+          <a href={url18} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url18} alt="" loading="lazy" />
+          </a>
         )}
         {url19 && (
-          <img className="sideImage" src={url19} alt="" loading="lazy" />
+          <a href={url19} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url19} alt="" loading="lazy" />
+          </a>
         )}
         {url20 && (
-          <img className="sideImage" src={url20} alt="" loading="lazy" />
+          <a href={url20} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url20} alt="" loading="lazy" />
+          </a>
         )}
         {url21 && (
-          <img className="sideImage" src={url21} alt="" loading="lazy" />
+          <a href={url21} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url21} alt="" loading="lazy" />
+          </a>
         )}
         {url22 && (
-          <img className="sideImage" src={url22} alt="" loading="lazy" />
+          <a href={url22} className="sidebarB" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url22} alt="" loading="lazy" />
+          </a>
         )}
       </div>
     </div>
