@@ -322,10 +322,6 @@ textarea {
   border: none;
 }
 
-.linka {
-  margin-top: -4.5%;
-}
-
 @media screen and (max-width: 550px) {
   .header {
     flex-direction: column;
