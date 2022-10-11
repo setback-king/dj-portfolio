@@ -61,7 +61,16 @@ const ProjectPage = ({ handleClose, info }) => {
           </a>
         )}
         {pc && <p>{pc}</p>}
-        <img className="sideImage" src={url2} alt="" />
+
+        <a
+          href={url2}
+          style={{ marginBottom: "0%" }}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="sideImage" src={url2} alt="" />
+        </a>
+
         {p2 && <p>{p2}</p>}
         <img className="sideImage" src={url3} alt="" />
         {p3 && <p>{p3}</p>}
