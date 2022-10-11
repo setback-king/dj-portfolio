@@ -69,33 +69,59 @@ const ProjectPage = ({ handleClose, info }) => {
         {p4 && <p>{p4}</p>}
         {url5 && <img className="sideImage" src={url5} alt="" />}
         {p5 && <p>{p5}</p>}
-        {url6 && <img className="sideImage" src={url6} alt="" />}
+        {url6 && <img className="sideImage" src={url6} alt="" loading="lazy" />}
         {p6 && <p>{p6}</p>}
-        {url7 && <img className="sideImage" src={url7} alt="" />}
+        {url7 && <img className="sideImage" src={url7} alt="" loading="lazy" />}
         {p7 && <p>{p7}</p>}
-        {url8 && <img className="sideImage" src={url8} alt="" />}
+        {url8 && <img className="sideImage" src={url8} alt="" loading="lazy" />}
         {p8 && <p>{p8}</p>}
-        {url9 && <img className="sideImage" src={url9} alt="" />}
+        {url9 && <img className="sideImage" src={url9} alt="" loading="lazy" />}
         {p9 && <p>{p9}</p>}
-        {url10 && <img className="sideImage" src={url10} alt="" />}
+        {url10 && (
+          <img className="sideImage" src={url10} alt="" loading="lazy" />
+        )}
         {p10 && <p>{p10}</p>}
-        {url11 && <img className="sideImage" src={url11} alt="" />}
+        {url11 && (
+          <img className="sideImage" src={url11} alt="" loading="lazy" />
+        )}
         {p11 && <p>{p11}</p>}
-        {url12 && <img className="sideImage" src={url12} alt="" />}
+        {url12 && (
+          <img className="sideImage" src={url12} alt="" loading="lazy" />
+        )}
         {p12 && <p>{p12}</p>}
-        {url13 && <img className="sideImage" src={url13} alt="" />}
+        {url13 && (
+          <img className="sideImage" src={url13} alt="" loading="lazy" />
+        )}
         {p13 && <p>{p13}</p>}
-        {url14 && <img className="sideImage" src={url14} alt="" />}
+        {url14 && (
+          <img className="sideImage" src={url14} alt="" loading="lazy" />
+        )}
         {p14 && <p>{p14}</p>}
-        {url15 && <img className="sideImage" src={url15} alt="" />}
+        {url15 && (
+          <img className="sideImage" src={url15} alt="" loading="lazy" />
+        )}
         {p15 && <p>{p15}</p>}
-        {url16 && <img className="sideImage" src={url16} alt="" />}
-        {url17 && <img className="sideImage" src={url17} alt="" />}
-        {url18 && <img className="sideImage" src={url18} alt="" />}
-        {url19 && <img className="sideImage" src={url19} alt="" />}
-        {url20 && <img className="sideImage" src={url20} alt="" />}
-        {url21 && <img className="sideImage" src={url21} alt="" />}
-        {url22 && <img className="sideImage" src={url22} alt="" />}
+        {url16 && (
+          <img className="sideImage" src={url16} alt="" loading="lazy" />
+        )}
+        {url17 && (
+          <img className="sideImage" src={url17} alt="" loading="lazy" />
+        )}
+        {url18 && (
+          <img className="sideImage" src={url18} alt="" loading="lazy" />
+        )}
+        {url19 && (
+          <img className="sideImage" src={url19} alt="" loading="lazy" />
+        )}
+        {url20 && (
+          <img className="sideImage" src={url20} alt="" loading="lazy" />
+        )}
+        {url21 && (
+          <img className="sideImage" src={url21} alt="" loading="lazy" />
+        )}
+        {url22 && (
+          <img className="sideImage" src={url22} alt="" loading="lazy" />
+        )}
       </div>
     </div>
   );
