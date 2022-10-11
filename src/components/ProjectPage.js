@@ -64,7 +64,11 @@ const ProjectPage = ({ handleClose, info }) => {
 
         <a
           href={url2}
-          style={{ marginBottom: "0%", marginTop: "5%" }}
+          style={{
+            marginBottom: "0%",
+            marginTop: "5%",
+            display: "inline-block",
+          }}
           target="_blank"
           rel="noreferrer"
         >
