@@ -53,10 +53,10 @@ const ProjectPage = ({ handleClose, info }) => {
             X
           </span>
         </div>
-        <p style={{ marginBottom: "2.5%" }}>{p}</p>
-        {pp2 && <p>{pp2}</p>}
+        <p>{p}</p>
+        {pp2 && <p style={{ marginTop: "0%" }}>{pp2}</p>}
         {link1 && (
-          <a href={link1} target="_blank" rel="noreferrer" className="linka">
+          <a href={link1} target="_blank" rel="noreferrer">
             https://rivergreenresort.com
           </a>
         )}
@@ -64,52 +64,52 @@ const ProjectPage = ({ handleClose, info }) => {
 
         <a
           href={url2}
-          style={{ marginBottom: "0%" }}
+          style={{ marginBottom: "0%", marginTop: "5%" }}
           target="_blank"
           rel="noreferrer"
         >
           <img className="sideImage" src={url2} alt="" />
         </a>
 
-        {p2 && <p>{p2}</p>}
+        {p2 && <p className="sideP">{p2}</p>}
         <img className="sideImage" src={url3} alt="" />
-        {p3 && <p>{p3}</p>}
+        {p3 && <p className="sideP">{p3}</p>}
         {url4 && <img className="sideImage" src={url4} alt="" />}
-        {p4 && <p>{p4}</p>}
+        {p4 && <p className="sideP">{p4}</p>}
         {url5 && <img className="sideImage" src={url5} alt="" />}
-        {p5 && <p>{p5}</p>}
+        {p5 && <p className="sideP">{p5}</p>}
         {url6 && <img className="sideImage" src={url6} alt="" loading="lazy" />}
-        {p6 && <p>{p6}</p>}
+        {p6 && <p className="sideP">{p6}</p>}
         {url7 && <img className="sideImage" src={url7} alt="" loading="lazy" />}
-        {p7 && <p>{p7}</p>}
+        {p7 && <p className="sideP">{p7}</p>}
         {url8 && <img className="sideImage" src={url8} alt="" loading="lazy" />}
-        {p8 && <p>{p8}</p>}
+        {p8 && <p className="sideP">{p8}</p>}
         {url9 && <img className="sideImage" src={url9} alt="" loading="lazy" />}
-        {p9 && <p>{p9}</p>}
+        {p9 && <p className="sideP">{p9}</p>}
         {url10 && (
           <img className="sideImage" src={url10} alt="" loading="lazy" />
         )}
-        {p10 && <p>{p10}</p>}
+        {p10 && <p className="sideP">{p10}</p>}
         {url11 && (
           <img className="sideImage" src={url11} alt="" loading="lazy" />
         )}
-        {p11 && <p>{p11}</p>}
+        {p11 && <p className="sideP">{p11}</p>}
         {url12 && (
           <img className="sideImage" src={url12} alt="" loading="lazy" />
         )}
-        {p12 && <p>{p12}</p>}
+        {p12 && <p className="sideP">{p12}</p>}
         {url13 && (
           <img className="sideImage" src={url13} alt="" loading="lazy" />
         )}
-        {p13 && <p>{p13}</p>}
+        {p13 && <p className="sideP">{p13}</p>}
         {url14 && (
           <img className="sideImage" src={url14} alt="" loading="lazy" />
         )}
-        {p14 && <p>{p14}</p>}
+        {p14 && <p className="sideP">{p14}</p>}
         {url15 && (
           <img className="sideImage" src={url15} alt="" loading="lazy" />
         )}
-        {p15 && <p>{p15}</p>}
+        {p15 && <p className="sideP">{p15}</p>}
         {url16 && (
           <img className="sideImage" src={url16} alt="" loading="lazy" />
         )}
