@@ -30,7 +30,6 @@ const AllProjects = () => {
             p: project.p,
             pp2: project.pp2,
             link1: project.link1,
-            pc: project.pc,
             id: project.id,
             url2: project.url2,
             url3: project.url3,
@@ -79,6 +78,7 @@ const AllProjects = () => {
     let sideBar = document.querySelector(".projectPage");
     let projectContainer = document.querySelector(".projects--container--wrap");
     if (projectContainer && sideBar) {
+      sideBar.style.minHeight = "100vh";
       sideBar.style.left = "-100%";
       projectContainer.style.filter = "brightness(100%)";
       document.body.style.overflowY = "visible";

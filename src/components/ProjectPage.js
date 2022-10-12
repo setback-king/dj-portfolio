@@ -7,7 +7,6 @@ const ProjectPage = ({ handleClose, info }) => {
     p,
     pp2,
     link1,
-    pc,
     url2,
     url3,
     url4,
