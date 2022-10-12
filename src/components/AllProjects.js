@@ -78,7 +78,6 @@ const AllProjects = () => {
     let sideBar = document.querySelector(".projectPage");
     let projectContainer = document.querySelector(".projects--container--wrap");
     if (projectContainer && sideBar) {
-      sideBar.style.minHeight = "100vh";
       sideBar.style.left = "-100%";
       projectContainer.style.filter = "brightness(100%)";
       document.body.style.overflowY = "visible";

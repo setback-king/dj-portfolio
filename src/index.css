@@ -362,7 +362,7 @@ textarea {
     margin-right: 0;
   }
   .project--container {
-    padding: 0 35px;
+    padding: 0 20px;
   }
   .contactInfo {
     flex-direction: column;
@@ -379,7 +379,7 @@ textarea {
   }
   .closeSide {
     position: fixed;
-    margin-left: 84%;
+    margin-left: 90%;
   }
 
   .linka {
