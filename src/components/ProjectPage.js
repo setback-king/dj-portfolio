@@ -1,4 +1,5 @@
 import Project from "./Project";
+import { useMediaQuery } from "react-responsive";
 
 const ProjectPage = ({ handleClose, info }) => {
   const {
@@ -44,6 +45,9 @@ const ProjectPage = ({ handleClose, info }) => {
     p15,
   } = info[0];
 
+  const isMobile = useMediaQuery({ query: "(max-width: 420px)" });
+  console.log(info);
+
   return (
     <div className="projectPage">
       <div className="project--container">
@@ -60,125 +64,388 @@ const ProjectPage = ({ handleClose, info }) => {
             https://rivergreenresort.com
           </a>
         )}
-        {pc && <p>{pc}</p>}
 
-        <a href={url2} className="sidebarA" target="_blank" rel="noreferrer">
-          <img className="sideImage" src={url2} alt="" />
-        </a>
+        {isMobile ? (
+          <img
+            className="sideImage"
+            style={{ marginBottom: "7%" }}
+            src={url2}
+            alt=""
+          />
+        ) : (
+          <a href={url2} className="sidebarA" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url2} alt="" />
+          </a>
+        )}
 
         {p2 && <p className="sideP">{p2}</p>}
-        <a href={url3} className="sidebarB" target="_blank" rel="noreferrer">
-          <img className="sideImage" src={url3} alt="" />
-        </a>
+        {isMobile ? (
+          <img
+            className="sideImage"
+            style={{ marginBottom: "7%" }}
+            src={url3}
+            alt=""
+          />
+        ) : (
+          <a href={url3} className="sidebarA" target="_blank" rel="noreferrer">
+            <img className="sideImage" src={url3} alt="" />
+          </a>
+        )}
         {p3 && <p className="sideP">{p3}</p>}
-        {url4 && (
-          <a href={url4} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url4} alt="" />
-          </a>
-        )}
+        {url4 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url4}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url4}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url4} alt="" />
+            </a>
+          ))}
         {p4 && <p className="sideP">{p4}</p>}
-        {url5 && (
-          <a href={url5} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url5} alt="" />
-          </a>
-        )}
+        {url5 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url5}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url5}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url5} alt="" />
+            </a>
+          ))}
         {p5 && <p className="sideP">{p5}</p>}
-        {url6 && (
-          <a href={url6} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url6} alt="" loading="lazy" />
-          </a>
-        )}
+        {url6 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url6}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url6}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url6} alt="" />
+            </a>
+          ))}
         {p6 && <p className="sideP">{p6}</p>}
-        {url7 && (
-          <a href={url7} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url7} alt="" loading="lazy" />
-          </a>
-        )}
+        {url7 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url7}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url7}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url7} alt="" />
+            </a>
+          ))}
         {p7 && <p className="sideP">{p7}</p>}
-        {url8 && (
-          <a href={url8} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url8} alt="" loading="lazy" />
-          </a>
-        )}
+        {url8 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url8}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url8}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url8} alt="" />
+            </a>
+          ))}
         {p8 && <p className="sideP">{p8}</p>}
-        {url9 && (
-          <a href={url9} className="sidebarB" target="_blank" rel="noreferrer">
-            {" "}
-            <img className="sideImage" src={url9} alt="" loading="lazy" />
-          </a>
-        )}
+        {url9 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url9}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url9}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url9} alt="" />
+            </a>
+          ))}
         {p9 && <p className="sideP">{p9}</p>}
-        {url10 && (
-          <a href={url10} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url10} alt="" loading="lazy" />
-          </a>
-        )}
+        {url10 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url10}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url10}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url10} alt="" />
+            </a>
+          ))}
         {p10 && <p className="sideP">{p10}</p>}
-        {url11 && (
-          <a href={url11} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url11} alt="" loading="lazy" />
-          </a>
-        )}
+        {url11 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url11}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url11}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url11} alt="" />
+            </a>
+          ))}
         {p11 && <p className="sideP">{p11}</p>}
-        {url12 && (
-          <a href={url12} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url12} alt="" loading="lazy" />
-          </a>
-        )}
+        {url12 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url12}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url12}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url12} alt="" />
+            </a>
+          ))}
         {p12 && <p className="sideP">{p12}</p>}
-        {url13 && (
-          <a href={url13} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url13} alt="" loading="lazy" />
-          </a>
-        )}
+        {url13 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url13}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url13}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url13} alt="" />
+            </a>
+          ))}
         {p13 && <p className="sideP">{p13}</p>}
-        {url14 && (
-          <a href={url14} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url14} alt="" loading="lazy" />
-          </a>
-        )}
+        {url14 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url14}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url14}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url14} alt="" />
+            </a>
+          ))}
         {p14 && <p className="sideP">{p14}</p>}
-        {url15 && (
-          <a href={url15} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url15} alt="" loading="lazy" />
-          </a>
-        )}
+        {url15 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url15}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url15}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url15} alt="" />
+            </a>
+          ))}
         {p15 && <p className="sideP">{p15}</p>}
-        {url16 && (
-          <a href={url16} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url16} alt="" loading="lazy" />
-          </a>
-        )}
-        {url17 && (
-          <a href={url17} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url17} alt="" loading="lazy" />
-          </a>
-        )}
-        {url18 && (
-          <a href={url18} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url18} alt="" loading="lazy" />
-          </a>
-        )}
-        {url19 && (
-          <a href={url19} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url19} alt="" loading="lazy" />
-          </a>
-        )}
-        {url20 && (
-          <a href={url20} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url20} alt="" loading="lazy" />
-          </a>
-        )}
-        {url21 && (
-          <a href={url21} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url21} alt="" loading="lazy" />
-          </a>
-        )}
-        {url22 && (
-          <a href={url22} className="sidebarB" target="_blank" rel="noreferrer">
-            <img className="sideImage" src={url22} alt="" loading="lazy" />
-          </a>
-        )}
+        {url16 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url16}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url16}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url16} alt="" />
+            </a>
+          ))}
+        {url17 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url17}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url17}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url17} alt="" />
+            </a>
+          ))}
+        {url18 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url18}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url18}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url18} alt="" />
+            </a>
+          ))}
+        {url19 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url19}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url19}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url19} alt="" />
+            </a>
+          ))}
+        {url20 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url20}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url20}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url20} alt="" />
+            </a>
+          ))}
+        {url21 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url21}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url21}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url21} alt="" />
+            </a>
+          ))}
+        {url22 &&
+          (isMobile ? (
+            <img
+              className="sideImage"
+              src={url22}
+              alt=""
+              style={{ marginBottom: "7%" }}
+            />
+          ) : (
+            <a
+              href={url22}
+              className="sidebarB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="sideImage" src={url22} alt="" />
+            </a>
+          ))}
       </div>
     </div>
   );
