@@ -86,7 +86,7 @@ const ProjectPage = ({ handleClose, info }) => {
             alt=""
           />
         ) : (
-          <a href={url3} className="sidebarA" target="_blank" rel="noreferrer">
+          <a href={url3} className="sidebarB" target="_blank" rel="noreferrer">
             <img className="sideImage" src={url3} alt="" />
           </a>
         )}
