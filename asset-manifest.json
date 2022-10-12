@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/dj-portfolio/static/css/main.cea5580e.css",
-    "main.js": "/dj-portfolio/static/js/main.cf5cac77.js",
-    "static/js/787.81aefb36.chunk.js": "/dj-portfolio/static/js/787.81aefb36.chunk.js",
-    "static/media/Gotham-BookIta.otf": "/dj-portfolio/static/media/Gotham-BookIta.760c1cfbdf1b64001d13.otf",
-    "static/media/Gotham-BoldIta.otf": "/dj-portfolio/static/media/Gotham-BoldIta.0a1a8ab27ec7c9b386ab.otf",
-    "static/media/Gotham-Book.otf": "/dj-portfolio/static/media/Gotham-Book.e37cf59954e32a3f5401.otf",
-    "static/media/Gotham-Bold.otf": "/dj-portfolio/static/media/Gotham-Bold.19cbd08d9da163ba87d6.otf",
-    "index.html": "/dj-portfolio/index.html",
-    "main.cea5580e.css.map": "/dj-portfolio/static/css/main.cea5580e.css.map",
-    "main.cf5cac77.js.map": "/dj-portfolio/static/js/main.cf5cac77.js.map",
-    "787.81aefb36.chunk.js.map": "/dj-portfolio/static/js/787.81aefb36.chunk.js.map"
+    "main.css": "/static/css/main.d7b644c2.css",
+    "main.js": "/static/js/main.31828db0.js",
+    "static/js/787.81aefb36.chunk.js": "/static/js/787.81aefb36.chunk.js",
+    "static/media/Gotham-BookIta.otf": "/static/media/Gotham-BookIta.760c1cfbdf1b64001d13.otf",
+    "static/media/Gotham-BoldIta.otf": "/static/media/Gotham-BoldIta.0a1a8ab27ec7c9b386ab.otf",
+    "static/media/Gotham-Book.otf": "/static/media/Gotham-Book.e37cf59954e32a3f5401.otf",
+    "static/media/Gotham-Bold.otf": "/static/media/Gotham-Bold.19cbd08d9da163ba87d6.otf",
+    "index.html": "/index.html",
+    "main.d7b644c2.css.map": "/static/css/main.d7b644c2.css.map",
+    "main.31828db0.js.map": "/static/js/main.31828db0.js.map",
+    "787.81aefb36.chunk.js.map": "/static/js/787.81aefb36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cea5580e.css",
-    "static/js/main.cf5cac77.js"
+    "static/css/main.d7b644c2.css",
+    "static/js/main.31828db0.js"
   ]
 }
