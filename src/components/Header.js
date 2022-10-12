@@ -6,13 +6,13 @@ const Header = () => {
       <h1 className="name">DANIEL BAREZ</h1>
       <nav>
         <li>
-          <Link className="text-link" to="/dj-portfolio/">
+          <Link className="text-link" to="/">
             Work
           </Link>
         </li>
         <div className="line"></div>
         <li>
-          <Link className="text-link" to="/dj-portfolio/about">
+          <Link className="text-link" to="/about">
             About
           </Link>
         </li>

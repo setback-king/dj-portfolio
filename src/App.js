@@ -11,8 +11,8 @@ function App() {
         <Header />
 
         <Routes>
-          <Route path="/dj-portfolio/" element={<AllProjects />} />
-          <Route path="/dj-portfolio/about" element={<About />} />
+          <Route path="/" element={<AllProjects />} />
+          <Route path="/about" element={<About />} />
         </Routes>
 
         <Footer />
