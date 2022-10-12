@@ -45,7 +45,7 @@ const ProjectPage = ({ handleClose, info }) => {
     p15,
   } = info[0];
 
-  const isMobile = useMediaQuery({ query: "(max-width: 420px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 550px)" });
   console.log(info);
 
   return (
