@@ -70,7 +70,7 @@ export default function About() {
                   className="aboutLogo"
                 />
               </a>
-              <a href="assets/About/Daniel Barez_Resume.pdf" download>
+              <a href="assets/About/Daniel_Barez_Resume.pdf" download>
                 <img
                   src="assets/About/Resume_Icon_AboutPage.png"
                   alt=""

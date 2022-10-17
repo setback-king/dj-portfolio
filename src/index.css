@@ -248,6 +248,7 @@ body::-webkit-scrollbar {
 
 .sideImage {
   width: 100%;
+  display: block;
 }
 
 a {
