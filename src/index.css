@@ -326,6 +326,7 @@ a {
   width: 75px;
   background-color: black;
   color: white;
+  font-weight: bold;
   font-style: italic;
 }
 
