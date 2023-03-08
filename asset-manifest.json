@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1df3aa42.css",
+    "main.css": "/static/css/main.d8696747.css",
     "main.js": "/static/js/main.fb35d645.js",
     "static/js/787.81aefb36.chunk.js": "/static/js/787.81aefb36.chunk.js",
     "static/media/Gotham-BookIta.otf": "/static/media/Gotham-BookIta.760c1cfbdf1b64001d13.otf",
@@ -8,12 +8,12 @@
     "static/media/Gotham-Book.otf": "/static/media/Gotham-Book.e37cf59954e32a3f5401.otf",
     "static/media/Gotham-Bold.otf": "/static/media/Gotham-Bold.19cbd08d9da163ba87d6.otf",
     "index.html": "/index.html",
-    "main.1df3aa42.css.map": "/static/css/main.1df3aa42.css.map",
+    "main.d8696747.css.map": "/static/css/main.d8696747.css.map",
     "main.fb35d645.js.map": "/static/js/main.fb35d645.js.map",
     "787.81aefb36.chunk.js.map": "/static/js/787.81aefb36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1df3aa42.css",
+    "static/css/main.d8696747.css",
     "static/js/main.fb35d645.js"
   ]
 }
