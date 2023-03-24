@@ -50,7 +50,7 @@ const ContactMe = () => {
             marginBottom: "-20px",
           }}
         >
-          Thank you! Your message has been sent.
+          Thank you! Your message has been sent!
         </p>
       )}
     </div>
