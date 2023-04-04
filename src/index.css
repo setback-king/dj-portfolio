@@ -119,6 +119,9 @@ nav {
 .name {
   margin-left: 50px;
   font-weight: bold;
+  border: 3px solid black;
+  padding: 15px 18px;
+  font-kerning: none;
 }
 
 .project--image {
@@ -358,7 +361,9 @@ textarea {
   }
   .name {
     margin: 0;
+    font-size: 30px;
     text-align: center;
+    margin-bottom: 5px;
   }
   nav {
     margin-right: 0;
