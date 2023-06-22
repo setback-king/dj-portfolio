@@ -119,8 +119,8 @@ nav {
 .name {
   margin-left: 50px;
   font-weight: bold;
-  border: 3px solid black;
-  padding: 15px 18px;
+  letter-spacing: 2px;
+
   font-kerning: none;
 }
 
