@@ -1,7 +1,7 @@
 [
   {
     "name": "HOT WHEELS®",
-    "url": "assets/Transition_Photos/9.5)HotWheels_Transition_CoverPhoto_Option2.jpg",
+    "url": "assets/Transition_Photos/1.5)HotWheels_Transition_CoverPhoto.jpg",
     "id": 1,
     "hovImg": "assets/1)HotWheels_CoverPhoto.jpg",
     "width": "100%",
@@ -36,7 +36,7 @@
   },
   {
     "name": "NASCAR™",
-    "url": "assets/Transition_Photos/10.5)Nascar_Transition_CoverPhoto_Option2.jpg",
+    "url": "assets/Transition_Photos/2.5)Nascar_Transition_CoverPhoto.jpg",
     "id": 2,
     "hovImg": "assets/2)Nascar_CoverPhoto.jpg",
     "width": "33.33%",
@@ -61,7 +61,7 @@
   },
   {
     "name": "MODERN LEISURE®",
-    "url": "assets/Transition_Photos/6.5)ModernLeisure_Transition_CoverPhoto_Option2.jpg",
+    "url": "assets/Transition_Photos/3.5)ModernLeisure_Transition_CoverPhoto.jpg",
     "id": 3,
     "hovImg": "assets/3)ModernLeisure_CoverPhoto.jpg",
     "width": "33.34%",
@@ -90,7 +90,7 @@
   },
   {
     "name": "TMNT™",
-    "url": "assets/Transition_Photos/12.5)TMNT_Transition_CoverPhoto_Option2.jpg",
+    "url": "assets/Transition_Photos/4.5)TMNT_Transition_CoverPhoto.jpg",
     "id": 4,
     "hovImg": "assets/4)TMNT_CoverPhoto.jpg",
     "width": "33.33%",
@@ -111,7 +111,7 @@
   },
   {
     "name": "TERRAIN™",
-    "url": "assets/5.5)Terrain_Transition_CoverPhoto.png",
+    "url": "assets/Transition_Photos/5.5)Terrain_Transition_CoverPhoto.png",
     "id": 5,
     "zIndex": "3",
     "hovImg": "assets/5)Terrain_CoverPhoto.png",
@@ -247,7 +247,7 @@
   },
   {
     "name": "TOY STATE®",
-    "url": "assets/Transition_Photos/14.5)ToyState_Transition_CoverPhoto_Option2-min.jpg",
+    "url": "assets/Transition_Photos/10.5)ToyState_Transition_CoverPhoto.jpg",
     "id": 10,
     "hovImg": "assets/10)ToyState_CoverPhoto.jpg",
     "width": "33.33%",
@@ -270,7 +270,7 @@
   },
   {
     "name": "DALLAS TOY FAIR®",
-    "url": "assets/Transition_Photos/15.5)DallasToyFair_Transition_CoverPhoto_Option2.jpg",
+    "url": "assets/Transition_Photos/11.5)DallasToyFair_Transition_CoverPhoto.jpg",
     "id": 11,
     "hovImg": "assets/11)DallasToyFair_CoverPhoto.jpg",
     "width": "33.34%",
@@ -289,7 +289,7 @@
   },
   {
     "name": "KRE-O®",
-    "url": "assets/Transition_Photos/16.5)Kreo_Transition_CoverPhoto_Option2.jpg",
+    "url": "assets/Transition_Photos/12.5)Kreo_Transition_CoverPhoto.jpg",
     "id": 12,
     "hovImg": "assets/12)Kreo_CoverPhoto.jpg",
     "width": "33.33%",
@@ -329,7 +329,7 @@
   },
   {
     "name": "ALLEN®",
-    "url": "assets/Transition_Photos/2.5)Allen_Transition_CoverPhoto_Option2.jpg",
+    "url": "assets/Transition_Photos/14.5)Allen_Transition_CoverPhoto.jpg",
     "id": 14,
     "hovImg": "assets/14)Allen_CoverPhoto.jpg",
     "width": "33.33%",
@@ -350,7 +350,7 @@
   },
   {
     "name": "CABELAS®",
-    "url": "assets/Transition_Photos/7.5)Cabelas_Transition_CoverPhoto_Option2.jpg",
+    "url": "assets/Transition_Photos/15.5)Cabelas_Transition_CoverPhoto.jpg",
     "id": 15,
     "hovImg": "assets/15)Cabelas_CoverPhoto.jpg",
     "width": "33.34%",
@@ -377,7 +377,7 @@
   },
   {
     "name": "PULSE™",
-    "url": "assets/Transition_Photos/8.5)Pulse_Transition_CoverPhoto_Option2.jpg",
+    "url": "assets/Transition_Photos/16.5)Pulse_Transition_CoverPhoto.jpg",
     "id": 16,
     "hovImg": "assets/16)Pulse_CoverPhoto.jpg",
     "width": "33.33%",
@@ -401,7 +401,7 @@
 
   {
     "name": "COLLEGE THESIS PROJECT",
-    "url": "assets/Transition_Photos/17.5)ThesisProject_Transition_CoverPhoto_Option2.png",
+    "url": "assets/Transition_Photos/17.5)ThesisProject_Transition_CoverPhoto.png",
     "id": 17,
     "hovImg": "assets/17)ThesisProject_CoverPhoto.png",
     "width": "100%",
@@ -429,7 +429,7 @@
   },
   {
     "name": "PACE",
-    "url": "assets/Transition_Photos/18.5)PACE_Transition_CoverPhoto_Option2.jpg",
+    "url": "assets/Transition_Photos/18.5)PACE_Transition_CoverPhoto.jpg",
     "id": 18,
     "hovImg": "assets/18)PACE_CoverPhoto.jpg",
     "width": "33.3333%",
@@ -450,7 +450,7 @@
   },
   {
     "name": "CARVE",
-    "url": "assets/Transition_Photos/19.5)Carve_Transition_CoverPhoto_Option2.jpg",
+    "url": "assets/Transition_Photos/19.5)Carve_Transition_CoverPhoto.jpg",
     "id": 19,
     "zIndex": "0",
     "hovImg": "assets/19)Carve_CoverPhoto.jpg",
@@ -472,7 +472,7 @@
   },
   {
     "name": "RIVERGREEN RESORT",
-    "url": "assets/Transition_Photos/20.5)RivergreenResort_Transition_CoverPhoto_Option2.jpg",
+    "url": "assets/Transition_Photos/20.5)RivergreenResort_Transition_CoverPhoto.jpg",
     "id": 20,
     "hovImg": "assets/20)RivergreenResort_CoverPhoto.jpg",
     "width": "33.3333%",
