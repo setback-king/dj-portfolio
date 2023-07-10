@@ -25,7 +25,7 @@ export default function About() {
             ABOUT ME...
           </h3>
           <p className="aboutBody">
-            I’m a highly motivated Senior Graphic Designer with seven years of
+            I’m a highly motivated Senior Graphic Designer with eight years of
             experience in the areas of brand identity, brand development and
             packaging. There is a wide variety of design and creativity that
             falls under those pillars including advertising, web design,
