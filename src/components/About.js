@@ -55,7 +55,7 @@ export default function About() {
                 <strong>Phone: </strong>203-848-8488
               </span>
               <span>
-                <strong>Email: </strong>danielbarez04@gmail.com
+                <strong>Email: </strong>daniel.barez@outlook.com
               </span>
             </div>
             <div style={{ display: "flex", gap: "20px" }}>
@@ -70,7 +70,7 @@ export default function About() {
                   className="aboutLogo"
                 />
               </a>
-              <a href="assets/About/Daniel_Barez_Resume.pdf" download>
+              <a href="assets/About/Daniel Barez Resume.pdf" download>
                 <img
                   src="assets/About/Resume_Icon_AboutPage.png"
                   alt=""
