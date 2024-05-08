@@ -8,7 +8,7 @@ const Project = ({ urls, names, id, styles, handleClick, hovImg }) => {
       style={styles}
     >
       <img id={id} src={urls} alt={names} className="top" loading="lazy" />
-      <img id={id} src={hovImg} alt={names} className="bottom" />
+      <img id={id} src={hovImg} alt={names} className="bottom" loading="lazy" />
     </div>
   );
 };
