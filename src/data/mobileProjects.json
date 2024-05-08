@@ -135,8 +135,7 @@
     "url12": "assets/mobile/Images_Terrain/11)BlackBranding_Terrain.webp",
     "url13": "assets/mobile/Images_Terrain/12)WhiteBranding_Terrain.webp",
     "p13": "Additional logo options.",
-    "url14": "assets/mobile/Images_Terrain/13)LogoOptions_Terrain.webp",
-    "marginTop": "-1.4%"
+    "url14": "assets/mobile/Images_Terrain/13)LogoOptions_Terrain.webp"
   },
   {
     "name": "CALIFORNIA SWIMMING",
@@ -209,9 +208,6 @@
     "id": 9,
     "hovImg": "assets/mobile/9)RoadRippers_CoverPhoto.webp",
     "width": "50%",
-    "marginTop": "-2.3%",
-    "zIndex": "2",
-    "marginBottom": "-2.3%",
     "p": "Road Rippers was one of Toy State’s biggest, in-house brands. Being the lead designer on this brand came with a lot of opportunities and creative freedom while producing, maintaining and constantly pushing its potential. The product line delivered an extensive fleet of custom-designed vehicles, sporting popular licenses and attention grabbing play features.",
     "url2": "assets/mobile/RoadRipper_Images/1)Logo_RoadRippers.webp",
     "url3": "assets/mobile/RoadRipper_Images/2)ColorPalette_RoadRippers.webp",
@@ -325,8 +321,6 @@
     "id": 14,
     "hovImg": "assets/mobile/14)ColoradoGameBags_CoverPhoto.webp",
     "width": "50%",
-    "marginTop": "-3.1%",
-    "zIndex": "3",
     "p": "The goal with Colorado Game Bags was to create a unique brand, that felt more authentic to the avid hunter. Our game bag products were packaged in Allen branding and needed a makeover sitting on shelves next to other big name brands. Here you’ll see the final product, along with a variety of other options and ideations while designing the brand.",
     "url2": "assets/mobile/Images_ColoradoBag/1)Logo_ColoradoGameBags.webp",
     "url3": "assets/mobile/Images_ColoradoBag/2)ColorPalette_ColoradoGameBags.webp",
@@ -400,9 +394,6 @@
     "id": 17,
     "hovImg": "assets/mobile/17)ThesisProject_CoverPhoto1.webp",
     "width": "50%",
-    "marginTop": "-2.4%",
-    "marginBottom": "-2.6%",
-    "zIndex": "2",
     "p": "With my BFA program, I devised a company and designed the branding, marketing materials and products. My company, “Emcee & Flow,” is inspired by comic book brands such as Marvel and DC, replacing superheroes with hip-hop characters. Being inspired by my internship with Hasbro, I focused heavily on brand development and packaging with this project. I created dielines for toy boxes, DVD cases and manufactured a full-size comic book display out of wood and steel. In addition, this project enabled me to showcase my passion for illustration.",
     "url2": "assets/mobile/Images_CollegeThesis/1)Logo_ThesisProject.webp",
     "p2": "Final presentation.",
