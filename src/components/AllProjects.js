@@ -1,11 +1,17 @@
 import Projects from "../data/Projects.json";
+import mobileProjects from "../data/mobileProjects.json";
 import { useState, useEffect } from "react";
+import { useMediaQuery } from "react-responsive";
 import Project from "./Project";
 import ProjectPage from "./ProjectPage";
 
 const AllProjects = () => {
   const [isClicked, setIsClicked] = useState("");
   const [pageInfo, setPageInfo] = useState([]);
+
+  const isMobile = useMediaQuery({ query: "(max-width: 550px)" });
+
+  const displayPhotos = isMobile ? mobileProjects : Projects; // put here conditional code to either choose project.json or mobile version
 
   window.addEventListener("click", (e) => {
     console.log(e.target.className);
@@ -21,7 +27,7 @@ const AllProjects = () => {
     projectContainer.style.filter = "brightness(60%)";
     projectContainer.style.pointerEvents = "none";
 
-    Projects.forEach((project) => {
+    displayPhotos.forEach((project) => {
       if (project.id === id) {
         setPageInfo([
           {
@@ -109,7 +115,7 @@ const AllProjects = () => {
     ]);
   }, []);
 
-  const projectElements = Projects.map((project) => {
+  const projectElements = displayPhotos.map((project) => {
     return (
       <Project
         key={project.id}
