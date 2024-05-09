@@ -9,9 +9,12 @@ const ContactMe = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_4z1itmk", "template_74xk0tm", form.current, {
-        publicKey: "csuF6GJKbSnTtVi2r",
-      })
+      .sendForm(
+        "service_4z1itmk",
+        "template_74xk0tm",
+        form.current,
+        "csuF6GJKbSnTtVi2r"
+      )
       .then(
         (result) => {
           e.target.reset();
