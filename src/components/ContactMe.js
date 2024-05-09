@@ -10,7 +10,7 @@ const ContactMe = () => {
 
     emailjs
       .sendForm("service_4z1itmk", "template_74xk0tm", form.current, {
-        publicKey: "jCfGox3f9JNqF9FHU",
+        publicKey: "csuF6GJKbSnTtVi2r",
       })
       .then(
         (result) => {
