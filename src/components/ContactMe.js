@@ -13,7 +13,7 @@ const ContactMe = () => {
         "service_4z1itmk",
         "template_74xk0tm",
         form.current,
-        "csuF6GJKbSnTtVi2r"
+        process.env.API_KEY
       )
       .then(
         (result) => {
