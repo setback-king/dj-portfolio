@@ -18,22 +18,23 @@ export default function About() {
             style={{
               marginTop: "0px",
               textShadow: "0px 1px, 1px 0px, 1px 1px",
-              letterSpacing: "1.5px",
+              letterSpacing: "1px",
               marginBottom: "10px",
+              fontFamily: "GothamBold",
+              fontWeight: "400",
             }}
           >
-            ABOUT ME...
+            ABOUT ME
           </h3>
           <p className="aboutBody">
-            I’m a highly motivated Senior Graphic Designer with eight years of
-            experience in the areas of brand identity, brand development and
-            packaging. There is a wide variety of design and creativity that
-            falls under those pillars including advertising, web design,
-            illustration and photography. From conceptualizing to creating, I am
-            passionate about each project that I work on. There is no greater
-            reward than seeing a finished product after putting your heart and
-            soul into it. This is what drives me to be the best designer I can
-            be, maintain a strong work ethic and go the extra mile.
+            As a seasoned Graphic Designer with nine years of dedicated
+            experience, I specialize in brand development, brand identity and
+            packaging design. I utilize a wide range of skills to bring my
+            creative visions to life, and I am passionate about each project
+            that I touch. There is no greater reward than seeing a finished
+            product after putting your heart and soul into it. This is what
+            motivates me to excel as a designer, maintain a strong work ethic
+            and consistently exceed expectations.
           </p>
           <div
             className="contactInfo"
@@ -52,7 +53,7 @@ export default function About() {
               }}
             >
               <span>
-                <strong>Phone: </strong>203-848-8488
+                <strong>Phone: </strong>303-945-9887
               </span>
               <span>
                 <strong>Email: </strong>daniel.barez@outlook.com

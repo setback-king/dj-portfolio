@@ -95,7 +95,7 @@ nav {
   margin-right: 50px;
   z-index: 3;
   font-size: 18px;
-  font-family: "Gotham";
+  font-family: "GothamBook";
 }
 
 .main {
@@ -113,14 +113,14 @@ nav {
 }
 
 .line {
-  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
 .name {
   margin-left: 50px;
   font-weight: bold;
   letter-spacing: 1px;
-
+  font-family: "GothamBold";
   font-kerning: none;
 }
 
@@ -304,6 +304,7 @@ a {
   flex-direction: column;
   gap: 20px;
   flex: 1;
+  font-family: "GothamBold";
 }
 
 .aboutBody {
@@ -364,10 +365,11 @@ textarea {
     margin: 0;
     font-size: 30px;
     text-align: center;
+    letter-spacing: -0.5px;
     margin-bottom: 5px;
   }
   nav {
-    margin-right: 0;
+    margin-left: 59.3px;
   }
   .project--container {
     padding: 0 20px;
@@ -393,8 +395,5 @@ textarea {
   .linka {
     margin-top: -3%;
     margin-bottom: 10%;
-  }
-
-  .sideImage {
   }
 }
