@@ -1,4 +1,3 @@
-import Project from "./Project";
 import { useMediaQuery } from "react-responsive";
 
 const ProjectPage = ({ handleClose, info }) => {

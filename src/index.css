@@ -334,6 +334,7 @@ a {
   color: white;
   font-family: "GothamBook";
   font-style: italic;
+  font-weight: bold;
 }
 
 .submitBtn:hover {
