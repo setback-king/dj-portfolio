@@ -71,18 +71,12 @@ export default function About() {
                   className="aboutLogo"
                 />
               </a>
-              <a href="assets/About/Daniel Barez Resume.pdf" download>
-                <img
-                  src="assets/About/Resume_Icon_AboutPage.png"
-                  alt=""
-                  className="aboutLogo"
-                />
-              </a>
+             
             </div>
           </div>
           <ContactMe />
         </div>
-      </div>
+      </div>s
     </div>
   );
 }
