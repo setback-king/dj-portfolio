@@ -21,7 +21,7 @@ export default function About() {
               letterSpacing: "1px",
               marginBottom: "10px",
               fontFamily: "GothamBook",
-              fontWeight: "ligther",
+              fontWeight: "lighter",
             }}
           >
             ABOUT ME
