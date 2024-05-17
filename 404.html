@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/" />
+    <script>
+      // This script gets the current path and redirects to the SPA entry point with the correct path
+      (function () {
+        var pathname = window.location.pathname;
+        window.location.replace("/#" + pathname);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
