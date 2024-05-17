@@ -71,12 +71,11 @@ export default function About() {
                   className="aboutLogo"
                 />
               </a>
-             
             </div>
           </div>
           <ContactMe />
         </div>
-      </div>s
+      </div>
     </div>
   );
 }
