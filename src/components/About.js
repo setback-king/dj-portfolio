@@ -20,8 +20,8 @@ export default function About() {
               textShadow: "0px 1px, 1px 0px, 1px 1px",
               letterSpacing: "1px",
               marginBottom: "10px",
-              fontFamily: "GothamBold",
-              fontWeight: "400",
+              fontFamily: "GothamBook",
+              fontWeight: "700",
             }}
           >
             ABOUT ME
@@ -53,10 +53,14 @@ export default function About() {
               }}
             >
               <span>
-                <strong>Phone: </strong>303-945-9887
+                <span>Phone: </span>
+                <span style={{ fontFamily: "GothamBook" }}>303-945-9887</span>
               </span>
               <span>
-                <strong>Email: </strong>daniel.barez@outlook.com
+                <span>Email: </span>
+                <span style={{ fontFamily: "GothamBook" }}>
+                  daniel.barez@outlook.com
+                </span>
               </span>
             </div>
             <div style={{ display: "flex", gap: "20px" }}>

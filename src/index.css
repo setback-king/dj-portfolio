@@ -312,6 +312,7 @@ a {
   text-align: left;
   margin-bottom: 20px;
   margin-top: -1%;
+  font-family: "GothamBook";
 }
 
 .aboutLogo {
@@ -331,7 +332,7 @@ a {
   width: 75px;
   background-color: black;
   color: white;
-  font-weight: bold;
+  font-family: "GothamBook";
   font-style: italic;
 }
 
